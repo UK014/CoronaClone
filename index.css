@@ -1,0 +1,309 @@
+nav{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px; 
+  background-color: #002452;
+
+}  
+@media screen and (max-width:1600px) {
+  #spans{
+    position: relative; 
+    top:40px;
+    margin-left:200px;
+    font-size:20px;
+    color:white;
+    font-family:'FoundersGroteskCond-SmBd', sans-serif;
+  }
+  #buy{
+    position: absolute;
+    top: 25px;
+    left: 1200px;
+    border-radius: 25px;
+    background-color: #FFCB05;
+    border: solid #FFCB05;
+    width: 200px;
+    height: 50px;
+    color: white;
+  }
+  img{
+    position: relative;
+    margin-left: 6.5%;
+  }
+  #beers{
+    position: absolute;
+    left: 0px;
+    top: 105%;
+    background-color: #002452;
+    width: 100%;
+    height: 120%;
+  }
+  #corona1{
+    position: relative; 
+    top:10px;
+    margin-left:8.5%;
+    font-size:20px;
+    color:white;
+    font-family:'FoundersGroteskCond-SmBd', sans-serif;
+  }  
+  #corona2{
+    position: relative; 
+    top:10px;
+    margin-left:10.5%;
+    font-size:20px;
+    color:white;
+    font-family:'FoundersGroteskCond-SmBd', sans-serif;
+  }  
+  #corona3{
+    position: relative; 
+    top:10px;
+    margin-left:10%;
+    font-size:20px;
+    color:white;
+    font-family:'FoundersGroteskCond-SmBd', sans-serif;
+  }  
+  #corona4{
+    position: relative; 
+    top:10px;
+    margin-left:7.5%;
+    font-size:20px;
+    color:white;
+    font-family:'FoundersGroteskCond-SmBd', sans-serif;
+  }  
+  #corona5{
+    position: relative; 
+    top:10px;
+    margin-left:7%;
+    font-size:20px;
+    color:white;
+    font-family:'FoundersGroteskCond-SmBd', sans-serif;
+  }  
+}
+@media screen and (min-width:1600px) {
+  #spans{
+    position: relative; 
+    top:40px;
+    margin-left:300px;
+    font-size:20px;
+    color:white;
+    font-family:'FoundersGroteskCond-SmBd', sans-serif;
+  }
+  
+  #buy{
+    position: absolute;
+    top: 25px;
+    left: 1600px;
+    border-radius: 25px;
+    background-color: #FFCB05;
+    border: solid #FFCB05;
+    width: 200px;
+    height: 50px;
+    color: white;
+  }
+  img{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 9%;
+  }
+  #beers{
+    position: absolute;
+    left: 0px;
+    top: 105%;
+    background-color: #002452;
+    width: 100%;
+    height: 100%;
+  }
+  #corona1{
+    position: relative; 
+    top:10px;
+    margin-left:11%;
+    font-size:20px;
+    color:white;
+    font-family:'FoundersGroteskCond-SmBd', sans-serif;
+  }  
+  #corona2{
+    position: relative; 
+    top:10px;
+    margin-left:12%;
+    font-size:20px;
+    color:white;
+    font-family:'FoundersGroteskCond-SmBd', sans-serif;
+  }  
+  #corona3{
+    position: relative; 
+    top:10px;
+    margin-left:12%;
+    font-size:20px;
+    color:white;
+    font-family:'FoundersGroteskCond-SmBd', sans-serif;
+  }  
+  #corona4{
+    position: relative; 
+    top:10px;
+    margin-left:10%;
+    font-size:20px;
+    color:white;
+    font-family:'FoundersGroteskCond-SmBd', sans-serif;
+  }  
+  #corona5{
+    position: relative; 
+    top:10px;
+    margin-left:9%;
+    font-size:20px;
+    color:white;
+    font-family:'FoundersGroteskCond-SmBd', sans-serif;
+  }  
+}
+#spans::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFCB05;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+#spans:hover::after{
+  transform: scaleX(1);
+}
+#buy:hover{
+  border: solid #e6b800;
+  background-color: #e6b800;
+}
+#first{
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  height: 80%;
+  width: 80%;
+  background-color:#002452;
+  
+}
+#second{
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  background-image: url("state_bbca_corona_01.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 60%;
+}
+#third{
+  position: absolute;
+  left: 45%;
+  top: 25%;
+  height: 40%;
+  width: 40%;
+  border: solid #FFCB05;
+  background-color:#ffffff;
+  text-align: center;
+  font-family:'FoundersGroteskCond-SmBd', sans-serif;
+}
+
+#top{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 5%;
+  width: 100%;
+  background-color: #FFCB05;
+}
+
+#start{
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  width: 100%;
+  height: 100%;
+  
+}
+#beerh1{
+  position: relative;
+  text-align: center; 
+  margin-top: 5%;
+  font-size:30px;
+  color:white;
+  font-family:'FoundersGroteskCond-SmBd', sans-serif;
+}
+#beerh3{
+  position: relative;
+  text-align: center; 
+  color:white;
+  font-family:'FoundersGroteskCond-SmBd', sans-serif;
+}
+img:hover{
+  animation: anim 1s ease 0s 1 normal forwards;
+  
+  }
+
+.corona{
+  visibility: hidden;
+}
+#img1:hover ~ #corona1 {
+  visibility: visible;
+  animation: textanim 1s ease 0s 1 normal forwards;
+}
+#img2:hover ~ #corona2 {
+  visibility: visible;
+  animation: textanim 1s ease 0s 1 normal forwards;
+}
+#img3:hover ~ #corona3 {
+  visibility: visible;
+  animation: textanim 1s ease 0s 1 normal forwards;
+}
+#img4:hover ~ #corona4 {
+  visibility: visible;
+  animation: textanim 1s ease 0s 1 normal forwards;
+}
+#img5:hover ~ #corona5 {
+  visibility: visible;
+  animation: textanim 1s ease 0s 1 normal forwards;
+}
+@keyframes anim {
+    0%,
+    100% {
+      transform: rotate(0deg);
+      transform-origin: 50% 50%;
+  }
+  
+  10% {
+    transform: rotate(8deg);
+  }
+  
+  20%,
+  40%,
+  60%{
+    transform: rotate(-10deg);
+  }
+  
+  30%,
+  50%,
+  70% {
+    transform: rotate(10deg);
+  }
+  
+  80% {
+    transform: rotate(-8deg);
+  }
+  
+  90% {
+    transform: rotate(8deg);
+  }
+}
+@keyframes textanim {
+  0% {
+    top: 0;
+    opacity: 0;
+  }
+  
+  100% {
+    top: 25px;
+    opacity: 1;
+  }
+}
